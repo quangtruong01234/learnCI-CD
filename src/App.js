@@ -190,7 +190,7 @@ class App extends Component {
                     </div>
                     <div className={ isDisplayForm === true ? 'col-xs-8 col-sm-8 col-md-8 col-lg-8' : 'col-xs-12 col-sm-12 col-md-12 col-lg-12' }>
                         <button type="button" className="btn btn-primary" onClick={this.onToggleForm} >
-                            <span className="fa fa-plus mr-5"></span>Thêm Công Việc
+                            <span className="fa fa-plus mr-5"></span>Thêm Công Việc Hello
                         </button>
                         <TaskControl
                             onSearch={this.onSearch}
